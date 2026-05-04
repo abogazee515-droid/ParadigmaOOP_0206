@@ -18,5 +18,8 @@
     <ClCompile Include="ParadigmaOOP_0206.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mahasiswa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
