@@ -1,7 +1,7 @@
 //name, quantity, category, and production date. The class also includes a method to display
 // the product details. Create two objects named “electronics” and “non-electronics.”
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class product
@@ -12,20 +12,21 @@ public:
     string category;
     string production_date;
 
-
     void PrintProduct()
     {
+        cout << "\n===== Product Info =====\n";
         cout << "Name of the product : " << Name << endl;
         cout << "quantity of the product " << Name << " : " << quantity << endl;
         cout << "The product " << Name << " in category of : " << category << endl;
         cout << "production date : " << production_date << endl;
     }
-
 };
 
 int main()
 {
     product pr1;
+
+    cout << "Product Data System\n\n";
 
     cout << "Enter the name of the product: ";
     cin >> pr1.Name;
@@ -36,12 +37,14 @@ int main()
     cout << "Enter the name of category: ";
     cin >> pr1.category;
 
-    cout << "Enter the production date: ";
-    cin >> pr1.production_date;
-
     while (pr1.category != "electronics" && pr1.category != "non-electronics")
     {
         cout << "Please enter either electronics or non-electronics: ";
         cin >> pr1.category;
     }
+
+    cout << "Enter the production date: ";
+    cin >> pr1.production_date;
+
+    pr1.PrintProduct();
 }
