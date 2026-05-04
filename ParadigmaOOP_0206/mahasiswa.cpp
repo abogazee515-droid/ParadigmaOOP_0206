@@ -16,4 +16,11 @@ public:
     }
 };
 
-int main() {}
+int main()
+{
+    Mahasiswa mhs1;
+
+    mhs1.Name = "SULAIMAN YOUSEF AL HAKAMI";
+    mhs1.NIM = "20250140206";
+    mhs1.nilai = 90.6;
+}
