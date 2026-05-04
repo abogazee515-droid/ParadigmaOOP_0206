@@ -23,4 +23,6 @@ int main()
     mhs1.Name = "SULAIMAN YOUSEF AL HAKAMI";
     mhs1.NIM = "20250140206";
     mhs1.nilai = 90.6;
+
+    mhs1.PrintData();
 }
