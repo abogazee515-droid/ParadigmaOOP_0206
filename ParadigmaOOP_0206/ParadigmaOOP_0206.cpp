@@ -38,4 +38,10 @@ int main()
 
     cout << "Enter the production date: ";
     cin >> pr1.production_date;
+
+    while (pr1.category != "electronics" && pr1.category != "non-electronics")
+    {
+        cout << "Please enter either electronics or non-electronics: ";
+        cin >> pr1.category;
+    }
 }
