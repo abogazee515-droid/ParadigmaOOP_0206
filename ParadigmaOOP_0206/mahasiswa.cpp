@@ -10,7 +10,9 @@ public:
 
     void PrintData()
     {
-        // display data
+        cout << "NIM : " << NIM << endl;
+        cout << "Name : " << Name << endl;
+        cout << "Nilai : " << nilai << endl;
     }
 };
 
